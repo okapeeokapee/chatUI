@@ -40,4 +40,22 @@ li.right-side{
   padding: 16px 24px;
   max-width: 60%;
   line-height: 1.8;
+  position: relative;
+}
+.text:before{
+  content:'' ;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  position: absolute;
+}
+.left-side .text:before{
+  top: 12px;
+  left: -16px;
+  border-right-color: #fff;
+}
+.right-side .text:before{
+  top: 12px;
+  right: -16px;
+  border-left-color: #fff;
 }
