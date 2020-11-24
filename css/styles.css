@@ -19,6 +19,14 @@ body{
 .messages li + li{
   margin-top: 32px;
 }
+li.right-side{
+  flex-direction: row-reverse;
+}
+.pic{
+  /* background: pink; */
+  width: 80px;
+  text-align: center;
+}
 
 .pic img{
   width: 48px;
